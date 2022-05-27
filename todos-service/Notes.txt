@@ -1,0 +1,47 @@
+
+
+-----------------------------------------
+how to design REST-api
+-----------------------------------------
+
+know the resource(s)
+
+    - todo
+    - user
+
+know the r/s b/w resource(s)
+
+    - one user can have many todos
+    - many todos belongs to one user
+
+
+A. Resource identification in requests
+
+    /api/v1/todos
+    /api/v1/todos/{id}
+    /api/v1/users
+    /api/v1/users/{id}
+
+B. Resource manipulation through representations
+
+    application/json
+
+C. Self-descriptive messages a.k.a headers
+
+
+------------------------------------------
+
+Nag's coding style for any application
+
+ 1- data-model
+
+ 2- data-layer
+
+ 3- api layer
+
+ --------------------------------------------
+
+ GET /api/v1/todos
+
+
+
